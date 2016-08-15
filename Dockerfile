@@ -35,7 +35,7 @@ RUN chown root.root /etc/bootstrap.sh
 RUN chmod 700 /etc/bootstrap.sh
 
 
-EXPOSE 8020 50070
+EXPOSE 8020 50070 8088 8030 8031 8032 8033
 
 #define HDFS volume to enable to persist namenode fsimage between restart
 VOLUME /hadoop
